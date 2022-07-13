@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Jul 12 21:29:57 2022
+# Make data base, printed on Tue Jul 12 22:49:44 2022
 
 # Variables
 
@@ -24,7 +23,7 @@ NO_AT_BRIDGE = 1
 # environment
 GTK_RC_FILES = /etc/gtk/gtkrc:/home/simon/.gtkrc:/home/simon/.config/gtkrc
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc625e5a-9d77-455f-9ef3-c6cefa306866.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2937b893-c15c-4dbd-8782-64a6d763646a.sock
 # environment
 WINDOWMANAGER = /usr/bin/startplasma-x11
 # environment
@@ -42,7 +41,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/simon/Dev/SDL/Snake
+PWD = /home/simon/Dev/SDL/SnakeDL2
 # environment
 HOST = localhost.localdomain
 # automatic
@@ -90,7 +89,7 @@ FROM_HEADER =
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/simon/Dev/SDL/Snake
+CURDIR := /home/simon/Dev/SDL/SnakeDL2
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -294,6 +293,7 @@ SUFFIXES :=
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
+ 
 LS_OPTIONS = -N --color=tty -T 0
 # environment
 KDE_SESSION_VERSION = 5
@@ -316,7 +316,7 @@ JRE_HOME = /usr/lib64/jvm/java-11-openjdk-11
 
 # Directories
 
-# . (device 46, inode 1292762): 17 files, no impossibilities.
+# . (device 46, inode 1335672): 17 files, no impossibilities.
 
 # 17 files, no impossibilities in 1 directories.
 
@@ -329,7 +329,7 @@ JRE_HOME = /usr/lib64/jvm/java-11-openjdk-11
 # Not a target:
 snake.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 17:53:21.641249906
+#  Last modified 2022-07-12 22:07:17.639858478
 #  File has been updated.
 #  Successfully updated.
 
@@ -362,7 +362,6 @@ all: main.cpp snake.cpp square.cpp apple.cpp counter.cpp
 # automatic
 # + := main.cpp snake.cpp square.cpp apple.cpp counter.cpp
 # automatic
- 
 # % := 
 # automatic
 # ^ := main.cpp snake.cpp square.cpp apple.cpp counter.cpp
@@ -378,28 +377,28 @@ all: main.cpp snake.cpp square.cpp apple.cpp counter.cpp
 # Not a target:
 apple.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 18:12:52.835991463
+#  Last modified 2022-07-12 22:14:19.33585449
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 21:29:01.551880188
+#  Last modified 2022-07-12 22:00:59.76786205
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 square.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 18:12:49.707991493
+#  Last modified 2022-07-12 22:09:51.335857024
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 counter.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-12 21:22:50.251883698
+#  Last modified 2022-07-12 22:11:50.351855899
 #  File has been updated.
 #  Successfully updated.
 
@@ -417,12 +416,12 @@ counter.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 209 B / avg = 9 B
-# current buf: size = 8162 B / used = 209 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 198 B / avg = 9 B
+# current buf: size = 8162 B / used = 198 B / count = 22 / avg = 9 B
 
 # strcache performance: lookups = 34 / hit rate = 35%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Tue Jul 12 21:29:57 2022
+# Finished Make data base on Tue Jul 12 22:49:44 2022
 
  
