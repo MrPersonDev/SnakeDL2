@@ -1,0 +1,428 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-suse-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul 12 21:29:57 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib64/jvm/jre-openjdk
+# environment
+QEMU_AUDIO_DRV = pa
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/simon/.gtkrc:/home/simon/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc625e5a-9d77-455f-9ef3-c6cefa306866.sock
+# environment
+WINDOWMANAGER = /usr/bin/startplasma-x11
+# environment
+VSCODE_CWD = /home/simon
+# environment
+MACHTYPE = x86_64
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+PYTHONSTARTUP = /etc/pythonstart
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/simon/Dev/SDL/Snake
+# environment
+HOST = localhost.localdomain
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MORE = -sl
+# environment
+HOSTNAME = localhost.localdomain
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/spool/mail/simon
+# environment
+XNLSPATH = /usr/share/X11/nls
+# environment
+XDG_DATA_DIRS = /home/simon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/share
+# environment
+OLDPWD = /home/simon
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/simon/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+PROFILEREAD = true
+# environment
+SSH_ASKPASS = /usr/libexec/ssh/ssh-askpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/xauth_xrlZnb
+# environment
+MANPATHISSET = yes
+# default
+.LOADED := 
+# environment
+FROM_HEADER = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/simon/Dev/SDL/Snake
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = lessopen.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXQHQ2Ek/agent.1355
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 50000
+# environment
+XDG_CONFIG_DIRS = /home/simon/.config/kdedefaults:/etc/xdg:/usr/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+P9K_SSH = 0
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+LESSKEY = /usr/etc/lesskey.bin
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/simon/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 14594
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+XAUTHLOCALHOSTNAME = localhost.localdomain
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/node-1w7jr9pj1sjm0hnztq93b597s.ipv6.telus.net:@/tmp/.ICE-unix/2360,unix/node-1w7jr9pj1sjm0hnztq93b597s.ipv6.telus.net:/tmp/.ICE-unix/2360
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /usr/local/man:/usr/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+JAVA_ROOT = /usr/lib64/jvm/jre-openjdk
+# environment
+LESS_ADVANCED_PREPROCESSOR = no
+# environment
+JAVA_BINDIR = /usr/lib64/jvm/jre-openjdk/bin
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-suse-linux-gnu
+# makefile (from 'Makefile', line 2)
+OBJS = main.cpp snake.cpp square.cpp apple.cpp counter.cpp
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=local
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/simon/.local/bin:/home/simon/bin:/usr/local/bin:/usr/bin:/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+OSTYPE = linux-gnu
+# environment
+INVOCATION_ID = 7b45b348fdb44f038fcb4df973469b81
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MINICOM = -c on
+# environment
+CPU = x86_64
+# environment
+LESSCLOSE = lessclose.sh %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XSESSION_IS_UP = yes
+# environment
+GTK_IM_MODULE = cedilla
+# makefile (from 'Makefile', line 15)
+OBJ_NAME = game
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+HOSTTYPE = x86_64
+# environment
+LS_COLORS = no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tgz=00;31:*.arc=00;31:*.arj=00;31:*.taz=00;31:*.lha=00;31:*.lz4=00;31:*.lzh=00;31:*.lzma=00;31:*.tlz=00;31:*.txz=00;31:*.tzo=00;31:*.t7z=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.dz=00;31:*.gz=00;31:*.lrz=00;31:*.lz=00;31:*.lzo=00;31:*.xz=00;31:*.zst=00;31:*.tzst=00;31:*.bz2=00;31:*.bz=00;31:*.tbz=00;31:*.tbz2=00;31:*.tz=00;31:*.deb=00;31:*.rpm=00;31:*.jar=00;31:*.war=00;31:*.ear=00;31:*.sar=00;31:*.rar=00;31:*.alz=00;31:*.ace=00;31:*.zoo=00;31:*.cpio=00;31:*.7z=00;31:*.rz=00;31:*.cab=00;31:*.wim=00;31:*.swm=00;31:*.dwm=00;31:*.esd=00;31:*.asf=01;35:*.avi=01;35:*.bmp=01;35:*.cgm=01;35:*.dl=01;35:*.emf=01;35:*.flc=01;35:*.fli=01;35:*.flv=01;35:*.gif=01;35:*.gl=01;35:*.jpeg=01;35:*.jpg=01;35:*.m2v=01;35:*.m4v=01;35:*.mjpeg=01;35:*.mjpg=01;35:*.mkv=01;35:*.mng=01;35:*.mov=01;35:*.mp4=01;35:*.mp4v=01;35:*.mpeg=01;35:*.mpg=01;35:*.nuv=01;35:*.ogm=01;35:*.pbm=01;35:*.pcx=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.qt=01;35:*.rm=01;35:*.rmvb=01;35:*.svg=01;35:*.svgz=01;35:*.tga=01;35:*.tif=01;35:*.tiff=01;35:*.vob=01;35:*.webm=01;35:*.webp=01;35:*.wmv=01;35:*.xbm=01;35:*.xcf=01;35:*.xpm=01;35:*.xwd=01;35:*.yuv=01;35:*.ogv=01;35:*.ogx=01;35:*.aiff=00;32:*.ape=00;32:*.aac=00;32:*.au=00;32:*.flac=00;32:*.m4a=00;32:*.mid=00;32:*.midi=00;32:*.mka=00;32:*.mp3=00;32:*.mpc=00;32:*.ogg=00;32:*.ra=00;32:*.voc=00;32:*.wav=00;32:*.wma=00;32:*.wv=00;32:*.oga=00;32:*.opus=00;32:*.spx=00;32:*.xspf=00;32:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -M -I -R
+# environment
+DESKTOP_SESSION = /usr/share/xsessions/default
+# environment
+CONFIG_SITE = /usr/share/site/x86_64-pc-linux-gnu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = simon
+# environment
+QT_IM_SWITCHER = imsw-multi
+# environment
+AUDIODRIVER = pulseaudio
+# environment
+G_FILENAME_ENCODING = @locale,UTF-8,ISO-8859-15,CP1252
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2415
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = simon
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+MANAGERPID = 1336
+# environment
+SSH_AGENT_PID = 1529
+# environment
+PAGER = less
+# makefile (from 'Makefile', line 9)
+COMPILER_FLAGS = -w
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+G_BROKEN_FILENAMES = 1
+# environment
+JOURNAL_STREAM = 8:30014
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+XKEYSYMDB = /usr/X11R6/lib/X11/XKeysymDB
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/simon/.gtkrc-2.0:/home/simon/.config/gtkrc-2.0
+# environment
+HOME = /home/simon
+# environment
+QT_IM_MODULE = xim
+# environment
+CSHEDIT = emacs
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1a88d1bc-1.68.1-main.sock
+# environment
+TERM = xterm
+# environment
+XDG_SESSION_ID = 1
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+LS_OPTIONS = -N --color=tty -T 0
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 5)
+CC = g++
+# environment
+KDE_FULL_SESSION = true
+# makefile (from 'Makefile', line 12)
+LINKER_FLAGS = -lSDL2 -lSDL2_ttf
+# environment
+JRE_HOME = /usr/lib64/jvm/java-11-openjdk-11
+# variable set hash-table stats:
+# Load=148/1024=14%, Rehash=0, Collisions=14/187=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 46, inode 1292762): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+snake.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 17:53:21.641249906
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 21:29:42.227879803
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main.cpp snake.cpp square.cpp apple.cpp counter.cpp
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := main.cpp
+# automatic
+# + := main.cpp snake.cpp square.cpp apple.cpp counter.cpp
+# automatic
+ 
+# % := 
+# automatic
+# ^ := main.cpp snake.cpp square.cpp apple.cpp counter.cpp
+# automatic
+# ? := main.cpp snake.cpp square.cpp apple.cpp counter.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=6/16=38%
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
+
+# Not a target:
+apple.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 18:12:52.835991463
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 21:29:01.551880188
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+square.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 18:12:49.707991493
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+counter.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 21:22:50.251883698
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 209 B / avg = 9 B
+# current buf: size = 8162 B / used = 209 B / count = 22 / avg = 9 B
+
+# strcache performance: lookups = 34 / hit rate = 35%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=0/34=0%
+# Finished Make data base on Tue Jul 12 21:29:57 2022
+
+ 

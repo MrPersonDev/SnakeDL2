@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/simon/Dev/SDL/Snake'
+g++ main.cpp snake.cpp square.cpp apple.cpp counter.cpp -w -lSDL2 -lSDL2_ttf -o game
+make: Leaving directory '/home/simon/Dev/SDL/Snake'
+ 
