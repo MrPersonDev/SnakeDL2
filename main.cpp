@@ -86,7 +86,6 @@ int main(int agrc, int args[])
 			else if(collision == WALL || collision == SNAKE)
 			{
 				// Die
-				close();
 				break;
 			}
 			else
